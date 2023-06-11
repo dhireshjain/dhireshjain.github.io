@@ -1,13 +1,3 @@
-$(document).ready(function() {
-  $(window).scroll(function() {
-    if ($(this).scrollTop() > 50) {
-      $('.navbar').addClass('scrolled');
-    } else {
-      $('.navbar').removeClass('scrolled');
-    }
-  });
-});
-
 document.addEventListener("DOMContentLoaded", function() {
   var typed = new Typed("#typed-text-heading", {
     strings: ["Welcome to My Portfolio"],
@@ -17,5 +7,4 @@ document.addEventListener("DOMContentLoaded", function() {
       document.getElementById("fade-text").style.opacity = 1;
     }
   });
-  
 });

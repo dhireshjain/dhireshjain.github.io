@@ -22,6 +22,7 @@
 body {
   padding-top: 0px;
   font-family: 'Raleway', sans-serif;
+  background-color: #b1afaecf;
 }
 
 .hero-image {
@@ -44,6 +45,24 @@ body {
   opacity: 0;
   transition: opacity 1.0s ease-in;
 }
+
+footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  background-color: dimgray;
+  color: white;
+  margin-top: 20px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: antiquewhite;
+}
+
+
 
 
 
