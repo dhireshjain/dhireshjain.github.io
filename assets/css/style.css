@@ -22,7 +22,16 @@
 body {
   padding-top: 0px;
   font-family: 'Raleway', sans-serif;
-  background-color: #b1afaecf;
+  background-color: slategray;
+
+  background-image: repeating-linear-gradient(
+    60deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.1) 1px,
+    rgba(159, 25, 25, 0.05) 1px,
+    rgba(0, 100, 0, 0.05) 3px
+  );
+  background-size: 10px 10px;
 }
 
 .hero-image {
@@ -46,6 +55,22 @@ body {
   transition: opacity 1.0s ease-in;
 }
 
+.main-section {
+  margin-bottom: 10px;
+  margin-top: 200px;
+  padding: 30px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .main-section {
+    margin-bottom: 10px;
+    margin-top: 350px;
+    padding: 30px;
+    text-align: center;
+  }
+}
+
 footer {
   bottom: 0;
   left: 0;
@@ -59,7 +84,7 @@ footer {
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: antiquewhite;
+  background-color:  aliceblue;
 }
 
 
