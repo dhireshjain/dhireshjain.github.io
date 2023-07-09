@@ -35,7 +35,7 @@ body {
 }
 
 .hero-image {
-  background-image: url('../img/hero.jpeg');
+  background-image: url('../img/hero.webp');
   background-size: cover;
   background-position: center;
   height: 1200px;
@@ -78,7 +78,7 @@ footer {
   background-color: #f5f5f5;
   padding: 20px;
   text-align: center;
-  background-color: dimgray;
+  background-color: lightslategray;
   color: white;
   margin-top: 20px;
 }
