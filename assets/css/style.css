@@ -35,7 +35,7 @@ body {
 }
 
 .hero-image {
-  background-image: url('../img/hero.webp');
+  background-image: url('https://d15xhmjitpwzz4.cloudfront.net/hero.webp');
   background-size: cover;
   background-position: center;
   height: 1200px;
