@@ -9,7 +9,18 @@ document.addEventListener("DOMContentLoaded", function() {
       .catch(error => {
         console.error("Error fetching navbar:", error);
       });
-  });
+
+    const footerContainer = document.getElementById("footer-content");
+
+    fetch("footer.html")
+      .then(response => response.text())
+      .then(data => {
+        footerContainer.innerHTML = data;
+      })
+      .catch(error => {
+        console.error("Error fetching footer:", error);
+      });
+    });
 
   $(document).ready(function() {
     $(window).scroll(function() {
