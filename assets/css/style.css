@@ -86,6 +86,12 @@ h1 {
   overflow-x: scroll;
 }
 
+@media (max-width: 768px) {
+  .reveal .slides {
+    max-width: 400px;
+  }
+}
+
 footer {
   bottom: 0;
   left: 0;
